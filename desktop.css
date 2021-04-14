@@ -1,0 +1,149 @@
+/* for desktop */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+.nav-logo{
+     text-align: left; 
+}
+.nav-heading h1{
+     text-align: right; 
+
+}
+.navbar-menu{
+     flex-direction: row; 
+     justify-content: flex-end;
+    
+}
+.navbar-menu a{
+    padding: 5px 10px;
+    margin: 20px 0px;
+    background-color: transparent;
+
+}
+/* ===========frofile description============= */
+.profile{
+     background-color: #3b5249;
+}
+.top-weather-icon{
+     right: 100px;
+     width:120px;
+     transition: width 2s,transform 2s;
+}
+.top-weather-icon:hover{
+     width:140px;
+}
+.bottom-weather-icon{
+     bottom: 10px;
+     left: 30px;
+     width:120px;
+     transition: width 2s,transform 2s;
+}
+.bottom-weather-icon:hover{
+     width:140px;
+}
+  .profile-description p{   
+    
+     color:#c3c0bb;
+     text-align: center;
+      width: 50%;
+      margin: 0 auto; 
+ } 
+ /* ======== about me section start ======= */
+
+ .aboutme{
+      background-color: #519872;
+ }
+ .aboutme-hr{
+     border:solid 2px white;
+     border-bottom: none;
+    margin: -10px 0px;
+     
+    
+ }
+ .dotted-hr{
+      width: 500px;
+      border: 4px dashed rgb(255, 255, 255);
+      border-bottom: none;
+ }
+ 
+
+h2{
+     font-size: 2.6rem;
+     color: rgb(255, 255, 255);
+} 
+.about-me p{
+     text-align: left;
+}
+ 
+ /* ==== about me section ends here =========== */
+
+
+ /* =====education section start here ====== */
+ .card-title h2{
+      font-size: 1.6rem;
+ }
+ /* ====education section end here ======= */
+
+ /* contuct-me section start here  */
+.contuct-me  h2{
+     font-size: 1.6rem;
+
+}
+.contuct-me hr{
+     width: 200px;
+
+}
+.contuct-me form button{
+     background-color:#382933;
+     color: white;
+     padding: 10px;
+     font-size: 1.4rem;
+}
+.contuct-me form button:hover{
+     background-color: gray;
+}
+.contuct-link .dotted-hr{
+     width: 200px;
+}
+.contuct-link h2{
+     font-size: 2rem;
+}
+.media-button button{
+     color: white;
+     background-color: #382933;
+     padding: 10px;
+     font-size: 2rem;
+}
+.media-button button:hover{
+     background-color: gray;
+}
+.contuct-link{
+     position: relative;
+}
+.media-button{
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%,-50%);
+     margin-top: 200px;
+}
+
+ /* contuct me stction end here  */
+ /* =======fotter start here======== */
+ .fotter-menu a{
+     display: inline;
+     font-size: .8rem;
+     margin: 10px;
+ }
+ /*  =======fotter ends here ============*/
